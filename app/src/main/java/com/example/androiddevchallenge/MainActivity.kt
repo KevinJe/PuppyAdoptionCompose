@@ -17,37 +17,34 @@ package com.example.androiddevchallenge
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
-import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.viewModels
 import androidx.compose.material.*
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.androiddevchallenge.ui.HomePage
+import com.example.androiddevchallenge.ui.PuppyHome
+import com.example.androiddevchallenge.ui.showHomeTitle
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
 class MainActivity : BaseActivity() {
+    private val viewModel by viewModels<MainViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setStatusBarToLight()
         setContent {
             MyTheme {
-                Scaffold(
-                    topBar = {
-                        TopAppBar(
-                            title = {
-                                Text(
-                                    text = getString(R.string.app_name),
-                                )
-                            },
-                            backgroundColor = Color.Transparent, elevation = 0.dp
-                        )
-                    }
-                ) {
-                    HomePage()
-                }
+                HomePage()
             }
+        }
+    }
+
+    override fun onBackPressed() {
+        if (viewModel.currentPuppy != null) {
+            viewModel.closePage()
+            showHomeTitle = true
+        } else {
+            super.onBackPressed()
         }
     }
 }

@@ -11,4 +11,5 @@ data class Puppy(
     val weight: Int,
     val desc: String,
     @DrawableRes val image: Int,
+    var adopted: Boolean
 )

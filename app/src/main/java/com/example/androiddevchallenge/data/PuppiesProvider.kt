@@ -14,7 +14,8 @@ object PuppiesProvider {
         desc = "His size, strength, and unflagging spirit have earned the Airedale Terrier the nickname" +
                 " “The King of Terriers.” The Airedale stands among the world’s most versatile dog breeds and " +
                 "has distinguished himself as hunter, athlete, and companion.",
-        image = R.drawable.aeolus
+        image = R.drawable.aeolus,
+        adopted = false
     )
 
     val Amaris = Puppy(
@@ -27,7 +28,8 @@ object PuppiesProvider {
         desc = "American Foxhounds are good-natured, low-maintenance hounds who get on well with kids, dogs," +
                 " even cats, but come with special considerations for prospective owners. They are closely associated" +
                 " with Revolutionary heroes and the estates of old Virginia.",
-        image = R.drawable.amaris
+        image = R.drawable.amaris,
+        adopted = false
     )
 
     val Cecile = Puppy(
@@ -41,9 +43,9 @@ object PuppiesProvider {
                 " of Burkina Faso, Mali, and Niger. The Azawakh has a short, fine coat which may come in any color" +
                 " or color combinations: red, clear sand to fawn, brindled, parti-color (which may be predominantly" +
                 " white), blue, black and brown. The head may have a black mask and there may be white markings on the" +
-                " legs, bib and at the tip of tail. There are no color or marking disqualifications in the breed. Befitting" +
-                " its heritage, the Azawakh excels as a companion, guardian and a lure courser in the United States.",
-        image = R.drawable.cecile
+                " legs, bib and at the tip of tail." ,
+        image = R.drawable.cecile,
+        adopted = false
     )
 
     val Deirdre = Puppy(
@@ -58,7 +60,8 @@ object PuppiesProvider {
                 " a substantial head and long, sweeping tail. He has a long, dense covering of curly hair and a distinctive" +
                 " beard. An agile athlete, the Barbet has been used primarily to locate, flush, and retrieve birds. He has" +
                 " a cheerful disposition and is very social and loyal.",
-        image = R.drawable.deirdre
+        image = R.drawable.deirdre,
+        adopted = false
     )
 
     val Fiona = Puppy(
@@ -71,7 +74,8 @@ object PuppiesProvider {
         desc = "Not only is the Beagle an excellent hunting dog and loyal companion, it is also happy-go-lucky, funny, " +
                 "and—thanks to its pleading expression—cute. They were bred to hunt in packs, so they enjoy company and " +
                 "are generally easygoing.",
-        image = R.drawable.fiona
+        image = R.drawable.fiona,
+        adopted = false
     )
 
     val Gina = Puppy(
@@ -84,7 +88,8 @@ object PuppiesProvider {
         desc = "Loyalty, affection, intelligence, work ethic, and good looks: Boxers are the whole doggy package. Bright" +
                 " and alert, sometimes silly, but always courageous, the Boxer has been among America’s most popular dog" +
                 " breeds for a very long time.",
-        image = R.drawable.gina
+        image = R.drawable.gina,
+        adopted = false
     )
 
     val Kiki = Puppy(
@@ -98,7 +103,8 @@ object PuppiesProvider {
                 "and possesses the strength, intelligence and quick responsiveness of a serious athlete. His short, plain" +
                 " and smooth coat is completely white, but a dark patch near the eye is permitted as long as it doesn't cover" +
                 " more than 10% of the head.",
-        image = R.drawable.kiki
+        image = R.drawable.kiki,
+        adopted = false
     )
 
     val Miko = Puppy(
@@ -111,7 +117,8 @@ object PuppiesProvider {
         desc = "The unique-looking Dandie Dinmont Terrier is a tough but dignified little exterminator. Sturdily built" +
                 " for the rigors of farm life, they will agreeably adapt to city living. Dandies are compact companions " +
                 "blessed with a big personality.",
-        image = R.drawable.miko
+        image = R.drawable.miko,
+        adopted = false
     )
 
     val Milo = Puppy(
@@ -124,7 +131,8 @@ object PuppiesProvider {
         desc = "The lively Finnish Spitz, the flame-colored, foxy-faced breed from the “Land of 60,000 Lakes,” is a small" +
                 " but fearless hunting dog whose unique style of tracking and indicating quarry has earned him the nickname" +
                 " the “Barking Bird Dog.”",
-        image = R.drawable.milo
+        image = R.drawable.milo,
+        adopted = false
     )
 
     val Sera = Puppy(
@@ -137,7 +145,8 @@ object PuppiesProvider {
         desc = "The German Spitz is always attentive, lively and exceptionally devoted to his owner. He is very teachable" +
                 " and easy to train. His distrust towards strangers and lack of hunting instinct make him the ideal watchdog " +
                 "for the home. His indifference to weather, robustness and longevity are his most outstanding attributes.",
-        image = R.drawable.sera
+        image = R.drawable.sera,
+        adopted = false
     )
 
     val puppyList = listOf(
