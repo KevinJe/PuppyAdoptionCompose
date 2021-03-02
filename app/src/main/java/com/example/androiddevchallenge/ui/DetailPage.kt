@@ -102,7 +102,7 @@ fun AdoptConfirmDialog(puppy: Puppy) {
     },
         text = {
             Text(
-                text = "Do you want to adopt this lovely dog?",
+                text = "Do you want to adopt this lovely puppy?",
                 style = MaterialTheme.typography.body2
             )
         },
