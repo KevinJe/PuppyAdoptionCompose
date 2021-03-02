@@ -18,11 +18,7 @@ package com.example.androiddevchallenge
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.compose.material.*
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.dp
 import com.example.androiddevchallenge.ui.HomePage
-import com.example.androiddevchallenge.ui.PuppyHome
 import com.example.androiddevchallenge.ui.showHomeTitle
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
@@ -48,4 +44,3 @@ class MainActivity : BaseActivity() {
         }
     }
 }
-

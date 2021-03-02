@@ -1,3 +1,18 @@
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.example.androiddevchallenge.data
 
 import com.example.androiddevchallenge.R
@@ -12,8 +27,8 @@ object PuppiesProvider {
         height = 23,
         weight = 60,
         desc = "His size, strength, and unflagging spirit have earned the Airedale Terrier the nickname" +
-                " “The King of Terriers.” The Airedale stands among the world’s most versatile dog breeds and " +
-                "has distinguished himself as hunter, athlete, and companion.",
+            " “The King of Terriers.” The Airedale stands among the world’s most versatile dog breeds and " +
+            "has distinguished himself as hunter, athlete, and companion.",
         image = R.drawable.aeolus,
         adopted = false
     )
@@ -26,8 +41,8 @@ object PuppiesProvider {
         height = 25,
         weight = 65,
         desc = "American Foxhounds are good-natured, low-maintenance hounds who get on well with kids, dogs," +
-                " even cats, but come with special considerations for prospective owners. They are closely associated" +
-                " with Revolutionary heroes and the estates of old Virginia.",
+            " even cats, but come with special considerations for prospective owners. They are closely associated" +
+            " with Revolutionary heroes and the estates of old Virginia.",
         image = R.drawable.amaris,
         adopted = false
     )
@@ -40,10 +55,10 @@ object PuppiesProvider {
         height = 25,
         weight = 50,
         desc = "Tall and elegant, the Azawakh is a West African sighthound who originates from the countries" +
-                " of Burkina Faso, Mali, and Niger. The Azawakh has a short, fine coat which may come in any color" +
-                " or color combinations: red, clear sand to fawn, brindled, parti-color (which may be predominantly" +
-                " white), blue, black and brown. The head may have a black mask and there may be white markings on the" +
-                " legs, bib and at the tip of tail." ,
+            " of Burkina Faso, Mali, and Niger. The Azawakh has a short, fine coat which may come in any color" +
+            " or color combinations: red, clear sand to fawn, brindled, parti-color (which may be predominantly" +
+            " white), blue, black and brown. The head may have a black mask and there may be white markings on the" +
+            " legs, bib and at the tip of tail.",
         image = R.drawable.cecile,
         adopted = false
     )
@@ -56,10 +71,10 @@ object PuppiesProvider {
         height = 19,
         weight = 45,
         desc = "An archetypic water dog of France, the Barbet is a rustic breed of medium size and balanced proportions" +
-                " who appears in artwork as early as the 16th century. In profile, the Barbet is slightly rectangular with" +
-                " a substantial head and long, sweeping tail. He has a long, dense covering of curly hair and a distinctive" +
-                " beard. An agile athlete, the Barbet has been used primarily to locate, flush, and retrieve birds. He has" +
-                " a cheerful disposition and is very social and loyal.",
+            " who appears in artwork as early as the 16th century. In profile, the Barbet is slightly rectangular with" +
+            " a substantial head and long, sweeping tail. He has a long, dense covering of curly hair and a distinctive" +
+            " beard. An agile athlete, the Barbet has been used primarily to locate, flush, and retrieve birds. He has" +
+            " a cheerful disposition and is very social and loyal.",
         image = R.drawable.deirdre,
         adopted = false
     )
@@ -72,8 +87,8 @@ object PuppiesProvider {
         height = 13,
         weight = 20,
         desc = "Not only is the Beagle an excellent hunting dog and loyal companion, it is also happy-go-lucky, funny, " +
-                "and—thanks to its pleading expression—cute. They were bred to hunt in packs, so they enjoy company and " +
-                "are generally easygoing.",
+            "and—thanks to its pleading expression—cute. They were bred to hunt in packs, so they enjoy company and " +
+            "are generally easygoing.",
         image = R.drawable.fiona,
         adopted = false
     )
@@ -86,8 +101,8 @@ object PuppiesProvider {
         height = 23,
         weight = 65,
         desc = "Loyalty, affection, intelligence, work ethic, and good looks: Boxers are the whole doggy package. Bright" +
-                " and alert, sometimes silly, but always courageous, the Boxer has been among America’s most popular dog" +
-                " breeds for a very long time.",
+            " and alert, sometimes silly, but always courageous, the Boxer has been among America’s most popular dog" +
+            " breeds for a very long time.",
         image = R.drawable.gina,
         adopted = false
     )
@@ -100,9 +115,9 @@ object PuppiesProvider {
         height = 24,
         weight = 88,
         desc = "The Dogo Argentino is a pack-hunting dog, bred for the pursuit of big-game such as wild boar and puma, " +
-                "and possesses the strength, intelligence and quick responsiveness of a serious athlete. His short, plain" +
-                " and smooth coat is completely white, but a dark patch near the eye is permitted as long as it doesn't cover" +
-                " more than 10% of the head.",
+            "and possesses the strength, intelligence and quick responsiveness of a serious athlete. His short, plain" +
+            " and smooth coat is completely white, but a dark patch near the eye is permitted as long as it doesn't cover" +
+            " more than 10% of the head.",
         image = R.drawable.kiki,
         adopted = false
     )
@@ -115,8 +130,8 @@ object PuppiesProvider {
         height = 11,
         weight = 18,
         desc = "The unique-looking Dandie Dinmont Terrier is a tough but dignified little exterminator. Sturdily built" +
-                " for the rigors of farm life, they will agreeably adapt to city living. Dandies are compact companions " +
-                "blessed with a big personality.",
+            " for the rigors of farm life, they will agreeably adapt to city living. Dandies are compact companions " +
+            "blessed with a big personality.",
         image = R.drawable.miko,
         adopted = false
     )
@@ -129,8 +144,8 @@ object PuppiesProvider {
         height = 20,
         weight = 30,
         desc = "The lively Finnish Spitz, the flame-colored, foxy-faced breed from the “Land of 60,000 Lakes,” is a small" +
-                " but fearless hunting dog whose unique style of tracking and indicating quarry has earned him the nickname" +
-                " the “Barking Bird Dog.”",
+            " but fearless hunting dog whose unique style of tracking and indicating quarry has earned him the nickname" +
+            " the “Barking Bird Dog.”",
         image = R.drawable.milo,
         adopted = false
     )
@@ -143,8 +158,8 @@ object PuppiesProvider {
         height = 15,
         weight = 25,
         desc = "The German Spitz is always attentive, lively and exceptionally devoted to his owner. He is very teachable" +
-                " and easy to train. His distrust towards strangers and lack of hunting instinct make him the ideal watchdog " +
-                "for the home. His indifference to weather, robustness and longevity are his most outstanding attributes.",
+            " and easy to train. His distrust towards strangers and lack of hunting instinct make him the ideal watchdog " +
+            "for the home. His indifference to weather, robustness and longevity are his most outstanding attributes.",
         image = R.drawable.sera,
         adopted = false
     )
