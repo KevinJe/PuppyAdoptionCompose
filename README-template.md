@@ -7,12 +7,14 @@
 
 ## :scroll: Description
 <!--- Describe your app in one or two sentences -->
-
+This project is for the #AndroidDevChallenge of Jetpack Compose.
+In this app, you can browse puppies and adopt them.
 
 ## :bulb: Motivation and Context
 <!--- Optionally point readers to interesting parts of your submission. -->
 <!--- What are you especially proud of? -->
-
+- The UI is fully write in Jetpack Compose
+- Include some Jetpack components
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
